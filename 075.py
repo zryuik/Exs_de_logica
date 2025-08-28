@@ -10,7 +10,7 @@ if 3 in num:
 else:
     print("O valor 3 não foi digitado")
 
-print(f"Os valores pares digitados foram ", end+)
+print(f"Os valores pares digitados foram ", end=' ')
 for numeros in num:
     if numeros % 2 == 0:
         print(numeros, end=' ')
