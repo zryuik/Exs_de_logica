@@ -9,7 +9,7 @@ while True:
         impar.append(n)
     junta = par + impar
     junta.sort()    
-    s = str(input("Quer continuar? [S/N]"))
+    s = str(input("Quer continuar? [S/N]: "))
     if s in "nN":
         break
 print(f"A lista completa é {junta}")
