@@ -3,7 +3,7 @@ valores = []
 while True:
     n = int(input("Digite um valor: "))
     valores.append(n)
-    c = str(input("Quer continuar? S/N: "))
+    c = str(input("Quer continuar? [S/N]: "))
     if c in "nN":
         break
 print(f"Voce digitou {len(valores)} valores")
