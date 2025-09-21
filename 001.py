@@ -1,2 +1,2 @@
-msg = 'Léo chupóu 600 cacetas '
+msg = "Hello World"
 print(msg)
