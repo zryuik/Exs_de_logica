@@ -32,7 +32,7 @@ while opcao != 6:
         print(f'{n1}  elevado a {n2} é {n1 ** n2}')
 
     elif opcao == 5:
-        print(f'{n1} x {n2} é {n2 * n2}')
+        print(f'{n1} x {n2} é {n1 * n2}')
     else:
         print('Opção invalida. tente novamente!! ')
 print('FIM')
