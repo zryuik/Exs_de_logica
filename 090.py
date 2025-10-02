@@ -1,17 +1,21 @@
-nome_media = {}
-escola = []
+nome_nota = {}
+
+nome = str(input("Digite o nome do aluno: "))
+nota = float(input("Digite a nota do aluno: "))
 
 
-for nm in range (0,1):
-    nome_media["nome"] = str(input("Nome: "))
-    nome_media["media"] = str(input("Média: "))
-    escola.append(nome_media.copy())
+nome_nota[nome] = nota
 
-
-    
-for s in escola:
-    for ap in s.values():
-        print(f"Situação é igual a {escola}")
-       
-
-
+if nota >=5 and nota <7:
+    print(f"- Nome é igual a {nome}")
+    print(f"- Nota é igual a {nota}")
+    print(f"- Situação é igual a Recuperação")
+else:
+    if nota < 5:
+        print(f"- Nome é igual a {nome}")
+        print(f"- Nota é igual a {nota}")
+        print(f"- Situação é igual a Reprovado")
+    else:
+        print(f"- Nome é igual a {nome}")
+        print(f"- Nota é igual a {nota}")
+        print(f"- Situação é igual a Aprovado")
