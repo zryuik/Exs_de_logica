@@ -3,3 +3,7 @@ def tabuada(numero):
     for i in range(1, 11):
         resul = numero * i
         print(f"{numero} x {i} = {resul}")
+
+
+numero = int(input("Digite o numero que quer saber a tabuada: "))
+tabuada(numero)

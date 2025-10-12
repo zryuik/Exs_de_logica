@@ -1,6 +1,14 @@
-preco = float(input("Digite o preço do produto: R$ "))
-desconto = preco * 0.20
-preco_final = preco - desconto
+def contador(inicio, fim, passo):
+    c = inicio
+    while c <= fim:
+        print(f"{c}", end=" ", flush=True)
+        c += passo
+    print("Cabo")
 
-print(f"O produto com 20% de desconto custa R$ {preco_final:.2f}")
 
+
+inicio = int(input("Digite o inicio "))
+fim = int(input("Digite o final "))
+passo = int(input("Digite o passo "))
+contador(inicio,fim,passo)
+contador(5,9,2)
