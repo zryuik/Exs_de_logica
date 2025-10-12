@@ -28,8 +28,11 @@ while op != 7:
         multiplicação = n1 * n2
         print(f'A multiplicação de {n1} x {n2} é {multiplicação}')
     elif op == 4:
-        dividir = n1 / n2
-        print(f'A divisão de {n1} / {n2} é {dividir}')
+        try:
+            dividir = n1 / n2
+            print(f'A divisão de {n1} / {n2} é {dividir}')
+        except ZeroDivisionError:
+            print("Zero não é um divisor!")
 
     elif op == 5:
         print('Informe os números novamente: ')
