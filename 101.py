@@ -32,6 +32,8 @@ def voto(ano_nascimento):
     else:
         return f"Idade {idade} anos, VOTO OBRIGATORIO"
 
-
-ano = int(input("Digite o ano em que voce nasceu: "))
-print(voto(ano))
+try:
+    ano = int(input("Digite o ano em que voce nasceu: "))
+    print(voto(ano))
+except ValueError:
+    print("❌ Entrada inválida. Por favor, digite apenas números.")
