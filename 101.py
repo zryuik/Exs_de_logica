@@ -1,7 +1,6 @@
 #Crie um programa que tenha uma função chamada voto() que vai receber como parâmetro o ano de nascimento de uma pessoa, retornando um valor literal indicando se uma pessoa tem voto NEGADO, OPCIONAL e OBRIGATÓRIO nas eleições.
 
 
-from datetime import datetime
 
 def voto(ano_nascimento):
     """
@@ -21,7 +20,7 @@ def voto(ano_nascimento):
         >>> voto(2008)
         'Idade: 17 anos — VOTO OPCIONAL'
         """
-
+    from datetime import date
     idade = datetime.now().year - ano_nascimento
 
 
