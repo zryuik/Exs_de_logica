@@ -1,5 +1,2 @@
-import utils
-'''Crie um programa que escreva"Olá, Mundo!" na tela.'''
-utils.funçao_linha()
+#Crie um programa que escreva"Olá, Mundo!" na tela.
 print("Olá, Mundo!")
-utils.funçao_linha()
