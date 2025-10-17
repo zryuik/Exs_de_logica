@@ -2,6 +2,20 @@
 
 
 def leiaInt(texto=""):
+    """
+    Lê um número inteiro digitado pelo usuário, validando a entrada.
+
+    Esta função solicita ao usuário que digite um valor e verifica se a entrada 
+    é composta apenas por dígitos numéricos. Caso o valor informado não seja 
+    um número inteiro válido, o programa exibe uma mensagem de erro e solicita 
+    novamente a entrada até que um valor correto seja digitado.
+
+    Parâmetros:
+        texto (str): Texto exibido ao solicitar o valor ao usuário.
+
+    Retorna:
+        int: O número inteiro digitado pelo usuário.
+    """
     ok = False
     valor = 0
     while True:
