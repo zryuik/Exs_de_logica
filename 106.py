@@ -39,3 +39,4 @@ while True:
         break
     else:
         ajuda(comando)
+print("FIM")
