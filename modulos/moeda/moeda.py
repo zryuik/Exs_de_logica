@@ -1,13 +1,11 @@
-def aumentar(n):
-    novo_valor = n * (1+13/100)
+def aumentar(preço, taxa):
+    res  = preço + (preço * taxa / 100)
+    return res
 
-    return novo_valor 
 
-
-def diminuir(n):
-    novo_valor = n * (1-13/100)
-    return novo_valor
-
+def diminuir(preço, taxa):
+    res  = preço - (preço * taxa / 100)
+    return res
 
 def dobro(n):
     return n * 2
